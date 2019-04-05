@@ -1,0 +1,4 @@
+dir1//anotherDir
+dir1//dir2
+dir1/anotherDir
+dir1/dir2

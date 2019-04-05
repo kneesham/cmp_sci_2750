@@ -1,0 +1,11 @@
+
+# Name: Theodore Nesham
+# Date: 03/10/2019
+# Description: Simple sed commands to for regular expressions.
+
+1. sed 's/\(mwh\)/MRH/Ig'  #remove any "mwh" upper or lowercase with 'MRH'.
+2. sed '/\.jpg$/p' 	   #Will print any file that matches the file extension .jpg.
+2a. sed 's/\.jpg$/.jpeg/'
+3. sed -e 's/\(^a.*\|.*\.html$\)//g' #replace any line that starts with a or ends in .html:
+4. sed 's/\([0-9]\{3\}\)\([0-9]\{3\}\)/(\1)\2-/' #for matching a string of 10 digits and converting it to a phone number.
+5. sed '/^$/d' #deletes just the newline character and nothing else.
